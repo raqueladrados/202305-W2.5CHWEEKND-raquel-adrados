@@ -21,3 +21,18 @@ describe("Given a function", () => {
         });
     });
 });
+import { generateRandomBoard } from "./random-board.js";
+describe("Given a random function", () => {
+    describe("When it receives 3", () => {
+        test("Then it should returns [ [ 0, 1, 1 ], [ 0, 1, 1 ], [ 0, 1, 1 ] ]", () => {
+            const num = 3;
+            const expectedResult = [
+                [0, 1, 1],
+                [0, 1, 1],
+                [0, 1, 1],
+            ];
+            const result = generateRandomBoard(num);
+            expect(expectedResult).toBe(result);
+        });
+    });
+});
