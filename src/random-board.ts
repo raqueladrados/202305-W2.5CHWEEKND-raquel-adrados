@@ -17,5 +17,3 @@ export const generateRandomBoard = (num: number) => {
     return arr;
   }
 };
-
-console.log(generateRandomBoard(3));

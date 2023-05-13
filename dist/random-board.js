@@ -15,4 +15,3 @@ export const generateRandomBoard = (num) => {
         return arr;
     }
 };
-console.log(generateRandomBoard(3));
