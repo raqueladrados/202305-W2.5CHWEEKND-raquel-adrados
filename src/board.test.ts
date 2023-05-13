@@ -1,4 +1,3 @@
-import { before } from "node:test";
 import { createBoard } from "./board.js";
 
 describe("Given a function", () => {
