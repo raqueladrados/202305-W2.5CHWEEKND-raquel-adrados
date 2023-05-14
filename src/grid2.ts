@@ -1,9 +1,12 @@
 import { Cell } from "./cell";
 
 export class gridRow {
-  cells: Array<Cell>;
-  id: number;
-  width: number;
-
-  initialize(): this;
+  cells;
+  id;
+  width;
+  constructor(cells, id, width){
+  this.cells: Array<Cell>;
+  this.id: Number;
+  this.width: Number;
+  }
 }
