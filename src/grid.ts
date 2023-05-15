@@ -6,10 +6,10 @@ export class Grid {
   row;
   width; 
   constructor(height, element, row, width){
-  this.height: number;
+  this.height: Number;
   this.element: HTMLElement;
   this.row: Array<gridRow>;
-  this.width: number;
+  this.width: Number;
 
   }
 }
